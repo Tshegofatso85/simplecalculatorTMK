@@ -11,6 +11,9 @@ const calculate = () => {
     display.value = "Error";
   }
 };
+const deleteDisplay = () => {
+  display.value = display.value.slice(0, display.value.length - 1);
+};
 
 const clearDisplay = () => {
   display.value = "";
